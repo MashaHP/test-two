@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C7DD32991E01D8C8000D1A05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DD32981E01D8C8000D1A05 /* AppDelegate.swift */; };
+		C7DD329B1E01D8C8000D1A05 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DD329A1E01D8C8000D1A05 /* ViewController.swift */; };
+		C7DD329E1E01D8C8000D1A05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7DD329C1E01D8C8000D1A05 /* Main.storyboard */; };
+		C7DD32A01E01D8C8000D1A05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7DD329F1E01D8C8000D1A05 /* Assets.xcassets */; };
+		C7DD32A31E01D8C8000D1A05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7DD32A11E01D8C8000D1A05 /* LaunchScreen.storyboard */; };
+		C7DD32AE1E01D8C8000D1A05 /* coalaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DD32AD1E01D8C8000D1A05 /* coalaTests.swift */; };
+		C7DD32B91E01D8C8000D1A05 /* coalaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DD32B81E01D8C8000D1A05 /* coalaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C7DD32AA1E01D8C8000D1A05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7DD328D1E01D8C8000D1A05 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7DD32941E01D8C8000D1A05;
+			remoteInfo = coala;
+		};
+		C7DD32B51E01D8C8000D1A05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7DD328D1E01D8C8000D1A05 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7DD32941E01D8C8000D1A05;
+			remoteInfo = coala;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C7DD32951E01D8C8000D1A05 /* coala.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = coala.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7DD32981E01D8C8000D1A05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C7DD329A1E01D8C8000D1A05 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C7DD329D1E01D8C8000D1A05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C7DD329F1E01D8C8000D1A05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C7DD32A21E01D8C8000D1A05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C7DD32A41E01D8C8000D1A05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7DD32A91E01D8C8000D1A05 /* coalaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = coalaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7DD32AD1E01D8C8000D1A05 /* coalaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coalaTests.swift; sourceTree = "<group>"; };
+		C7DD32AF1E01D8C8000D1A05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7DD32B41E01D8C8000D1A05 /* coalaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = coalaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7DD32B81E01D8C8000D1A05 /* coalaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coalaUITests.swift; sourceTree = "<group>"; };
+		C7DD32BA1E01D8C8000D1A05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C7DD32921E01D8C8000D1A05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7DD32A61E01D8C8000D1A05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7DD32B11E01D8C8000D1A05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C7DD328C1E01D8C8000D1A05 = {
+			isa = PBXGroup;
+			children = (
+				C7DD32971E01D8C8000D1A05 /* coala */,
+				C7DD32AC1E01D8C8000D1A05 /* coalaTests */,
+				C7DD32B71E01D8C8000D1A05 /* coalaUITests */,
+				C7DD32961E01D8C8000D1A05 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C7DD32961E01D8C8000D1A05 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C7DD32951E01D8C8000D1A05 /* coala.app */,
+				C7DD32A91E01D8C8000D1A05 /* coalaTests.xctest */,
+				C7DD32B41E01D8C8000D1A05 /* coalaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C7DD32971E01D8C8000D1A05 /* coala */ = {
+			isa = PBXGroup;
+			children = (
+				C7DD32981E01D8C8000D1A05 /* AppDelegate.swift */,
+				C7DD329A1E01D8C8000D1A05 /* ViewController.swift */,
+				C7DD329C1E01D8C8000D1A05 /* Main.storyboard */,
+				C7DD329F1E01D8C8000D1A05 /* Assets.xcassets */,
+				C7DD32A11E01D8C8000D1A05 /* LaunchScreen.storyboard */,
+				C7DD32A41E01D8C8000D1A05 /* Info.plist */,
+			);
+			path = coala;
+			sourceTree = "<group>";
+		};
+		C7DD32AC1E01D8C8000D1A05 /* coalaTests */ = {
+			isa = PBXGroup;
+			children = (
+				C7DD32AD1E01D8C8000D1A05 /* coalaTests.swift */,
+				C7DD32AF1E01D8C8000D1A05 /* Info.plist */,
+			);
+			path = coalaTests;
+			sourceTree = "<group>";
+		};
+		C7DD32B71E01D8C8000D1A05 /* coalaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C7DD32B81E01D8C8000D1A05 /* coalaUITests.swift */,
+				C7DD32BA1E01D8C8000D1A05 /* Info.plist */,
+			);
+			path = coalaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C7DD32941E01D8C8000D1A05 /* coala */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7DD32BD1E01D8C8000D1A05 /* Build configuration list for PBXNativeTarget "coala" */;
+			buildPhases = (
+				C7DD32911E01D8C8000D1A05 /* Sources */,
+				C7DD32921E01D8C8000D1A05 /* Frameworks */,
+				C7DD32931E01D8C8000D1A05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = coala;
+			productName = coala;
+			productReference = C7DD32951E01D8C8000D1A05 /* coala.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C7DD32A81E01D8C8000D1A05 /* coalaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7DD32C01E01D8C8000D1A05 /* Build configuration list for PBXNativeTarget "coalaTests" */;
+			buildPhases = (
+				C7DD32A51E01D8C8000D1A05 /* Sources */,
+				C7DD32A61E01D8C8000D1A05 /* Frameworks */,
+				C7DD32A71E01D8C8000D1A05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7DD32AB1E01D8C8000D1A05 /* PBXTargetDependency */,
+			);
+			name = coalaTests;
+			productName = coalaTests;
+			productReference = C7DD32A91E01D8C8000D1A05 /* coalaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C7DD32B31E01D8C8000D1A05 /* coalaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7DD32C31E01D8C8000D1A05 /* Build configuration list for PBXNativeTarget "coalaUITests" */;
+			buildPhases = (
+				C7DD32B01E01D8C8000D1A05 /* Sources */,
+				C7DD32B11E01D8C8000D1A05 /* Frameworks */,
+				C7DD32B21E01D8C8000D1A05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7DD32B61E01D8C8000D1A05 /* PBXTargetDependency */,
+			);
+			name = coalaUITests;
+			productName = coalaUITests;
+			productReference = C7DD32B41E01D8C8000D1A05 /* coalaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C7DD328D1E01D8C8000D1A05 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Masha;
+				TargetAttributes = {
+					C7DD32941E01D8C8000D1A05 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = VD3B3766BZ;
+						ProvisioningStyle = Automatic;
+					};
+					C7DD32A81E01D8C8000D1A05 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = VD3B3766BZ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C7DD32941E01D8C8000D1A05;
+					};
+					C7DD32B31E01D8C8000D1A05 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = VD3B3766BZ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C7DD32941E01D8C8000D1A05;
+					};
+				};
+			};
+			buildConfigurationList = C7DD32901E01D8C8000D1A05 /* Build configuration list for PBXProject "coala" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C7DD328C1E01D8C8000D1A05;
+			productRefGroup = C7DD32961E01D8C8000D1A05 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C7DD32941E01D8C8000D1A05 /* coala */,
+				C7DD32A81E01D8C8000D1A05 /* coalaTests */,
+				C7DD32B31E01D8C8000D1A05 /* coalaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C7DD32931E01D8C8000D1A05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7DD32A31E01D8C8000D1A05 /* LaunchScreen.storyboard in Resources */,
+				C7DD32A01E01D8C8000D1A05 /* Assets.xcassets in Resources */,
+				C7DD329E1E01D8C8000D1A05 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7DD32A71E01D8C8000D1A05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7DD32B21E01D8C8000D1A05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C7DD32911E01D8C8000D1A05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7DD329B1E01D8C8000D1A05 /* ViewController.swift in Sources */,
+				C7DD32991E01D8C8000D1A05 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7DD32A51E01D8C8000D1A05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7DD32AE1E01D8C8000D1A05 /* coalaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7DD32B01E01D8C8000D1A05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7DD32B91E01D8C8000D1A05 /* coalaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C7DD32AB1E01D8C8000D1A05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C7DD32941E01D8C8000D1A05 /* coala */;
+			targetProxy = C7DD32AA1E01D8C8000D1A05 /* PBXContainerItemProxy */;
+		};
+		C7DD32B61E01D8C8000D1A05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C7DD32941E01D8C8000D1A05 /* coala */;
+			targetProxy = C7DD32B51E01D8C8000D1A05 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C7DD329C1E01D8C8000D1A05 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7DD329D1E01D8C8000D1A05 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C7DD32A11E01D8C8000D1A05 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7DD32A21E01D8C8000D1A05 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C7DD32BB1E01D8C8000D1A05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C7DD32BC1E01D8C8000D1A05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C7DD32BE1E01D8C8000D1A05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VD3B3766BZ;
+				INFOPLIST_FILE = coala/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Masha.coala;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C7DD32BF1E01D8C8000D1A05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VD3B3766BZ;
+				INFOPLIST_FILE = coala/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Masha.coala;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		C7DD32C11E01D8C8000D1A05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = VD3B3766BZ;
+				INFOPLIST_FILE = coalaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Masha.coalaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/coala.app/coala";
+			};
+			name = Debug;
+		};
+		C7DD32C21E01D8C8000D1A05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = VD3B3766BZ;
+				INFOPLIST_FILE = coalaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Masha.coalaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/coala.app/coala";
+			};
+			name = Release;
+		};
+		C7DD32C41E01D8C8000D1A05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = VD3B3766BZ;
+				INFOPLIST_FILE = coalaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Masha.coalaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = coala;
+			};
+			name = Debug;
+		};
+		C7DD32C51E01D8C8000D1A05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = VD3B3766BZ;
+				INFOPLIST_FILE = coalaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Masha.coalaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = coala;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C7DD32901E01D8C8000D1A05 /* Build configuration list for PBXProject "coala" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7DD32BB1E01D8C8000D1A05 /* Debug */,
+				C7DD32BC1E01D8C8000D1A05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7DD32BD1E01D8C8000D1A05 /* Build configuration list for PBXNativeTarget "coala" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7DD32BE1E01D8C8000D1A05 /* Debug */,
+				C7DD32BF1E01D8C8000D1A05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C7DD32C01E01D8C8000D1A05 /* Build configuration list for PBXNativeTarget "coalaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7DD32C11E01D8C8000D1A05 /* Debug */,
+				C7DD32C21E01D8C8000D1A05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C7DD32C31E01D8C8000D1A05 /* Build configuration list for PBXNativeTarget "coalaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7DD32C41E01D8C8000D1A05 /* Debug */,
+				C7DD32C51E01D8C8000D1A05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C7DD328D1E01D8C8000D1A05 /* Project object */;
+}
